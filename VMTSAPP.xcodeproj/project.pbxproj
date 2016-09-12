@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B0978CF1CCB19D60089DF04 /* 兽药生产企业数据_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0978CD1CCB19D60089DF04 /* 兽药生产企业数据_2.png */; };
+		7B0978D01CCB19D60089DF04 /* 兽药生产企业数据.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0978CE1CCB19D60089DF04 /* 兽药生产企业数据.png */; };
+		7B0978D31CCB1A5C0089DF04 /* 兽药产品批准文号数据_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0978D11CCB1A5C0089DF04 /* 兽药产品批准文号数据_2.png */; };
+		7B0978D41CCB1A5C0089DF04 /* 兽药产品批准文号数据.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0978D21CCB1A5C0089DF04 /* 兽药产品批准文号数据.png */; };
+		7B0978D71CCB1B2E0089DF04 /* 进口兽药注册数据_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0978D51CCB1B2E0089DF04 /* 进口兽药注册数据_2.png */; };
+		7B0978D81CCB1B2E0089DF04 /* 进口兽药注册数据.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0978D61CCB1B2E0089DF04 /* 进口兽药注册数据.png */; };
+		7B0978DB1CCB1C7C0089DF04 /* 国产生物制品批签发数据_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0978D91CCB1C7C0089DF04 /* 国产生物制品批签发数据_2.png */; };
+		7B0978DC1CCB1C7C0089DF04 /* 国产生物制品批签发数据.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0978DA1CCB1C7C0089DF04 /* 国产生物制品批签发数据.png */; };
+		7B0978DF1CCB1D730089DF04 /* 化药监督抽检结果数据_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0978DD1CCB1D730089DF04 /* 化药监督抽检结果数据_2.png */; };
+		7B0978E01CCB1D730089DF04 /* 化药监督抽检结果数据.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0978DE1CCB1D730089DF04 /* 化药监督抽检结果数据.png */; };
+		7B0978E31CCB9D120089DF04 /* 国内兽药说明书数据_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0978E11CCB9D120089DF04 /* 国内兽药说明书数据_2.png */; };
+		7B0978E41CCB9D120089DF04 /* 国内兽药说明书数据.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0978E21CCB9D120089DF04 /* 国内兽药说明书数据.png */; };
+		7B0978E71CCB9EB20089DF04 /* 进口兽药说明书数据_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0978E51CCB9EB20089DF04 /* 进口兽药说明书数据_2.png */; };
+		7B0978E81CCB9EB20089DF04 /* 进口兽药说明书数据.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0978E61CCB9EB20089DF04 /* 进口兽药说明书数据.png */; };
+		7B0978EB1CCBAA250089DF04 /* 进口生物制品签发数据_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0978E91CCBAA250089DF04 /* 进口生物制品签发数据_2.png */; };
+		7B0978EC1CCBAA250089DF04 /* 进口生物制品签发数据.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0978EA1CCBAA250089DF04 /* 进口生物制品签发数据.png */; };
+		7B0978EF1CCBAAA00089DF04 /* 生药监督抽检结果数据_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0978ED1CCBAAA00089DF04 /* 生药监督抽检结果数据_2.png */; };
+		7B0978F01CCBAAA00089DF04 /* 生药监督抽检结果数据.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0978EE1CCBAAA00089DF04 /* 生药监督抽检结果数据.png */; };
+		7B0978F51CCBCD5E0089DF04 /* ScanCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0978F31CCBCD5E0089DF04 /* ScanCodeView.m */; };
+		7B0978F61CCBCD5E0089DF04 /* scanCodeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B0978F41CCBCD5E0089DF04 /* scanCodeView.xib */; };
+		7B0978F81CCBCD6A0089DF04 /* scanline.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B0978F71CCBCD6A0089DF04 /* scanline.png */; };
+		8504859D1A82578400BC5DCF /* LogoIAbout.png in Resources */ = {isa = PBXBuildFile; fileRef = 8504859C1A82578400BC5DCF /* LogoIAbout.png */; };
+		9925A39B1A60611A00E308F4 /* Ico.png in Resources */ = {isa = PBXBuildFile; fileRef = 9925A39A1A60611A00E308F4 /* Ico.png */; };
+		9925A39D1A6061F800E308F4 /* 58.png in Resources */ = {isa = PBXBuildFile; fileRef = 9925A39C1A6061F800E308F4 /* 58.png */; };
+		9925A39F1A60652F00E308F4 /* Ico@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9925A39E1A60652F00E308F4 /* Ico@2x.png */; };
+		9926AD701A5BFFF200267C19 /* Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 9926AD6F1A5BFFF200267C19 /* Common.m */; };
+		992CB7BA1A5990E400779CFD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 992CB7B91A5990E400779CFD /* main.m */; };
+		992CB7BD1A5990E400779CFD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 992CB7BC1A5990E400779CFD /* AppDelegate.m */; };
+		992CB7C01A5990E400779CFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 992CB7BF1A5990E400779CFD /* ViewController.m */; };
+		992CB7C31A5990E400779CFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 992CB7C11A5990E400779CFD /* Main.storyboard */; };
+		992CB7C51A5990E400779CFD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 992CB7C41A5990E400779CFD /* Images.xcassets */; };
+		993921B51A5AAEDC0018273A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993921B41A5AAEDC0018273A /* QuartzCore.framework */; };
+		993921B81A5AAEFB0018273A /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993921B61A5AAEFB0018273A /* CoreMedia.framework */; };
+		993921B91A5AAEFB0018273A /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993921B71A5AAEFB0018273A /* CoreVideo.framework */; };
+		993921BB1A5AAF010018273A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993921BA1A5AAF010018273A /* AVFoundation.framework */; };
+		993921BD1A5AAF090018273A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993921BC1A5AAF090018273A /* UIKit.framework */; };
+		993921BF1A5AAF120018273A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993921BE1A5AAF120018273A /* Foundation.framework */; };
+		993921C11A5AAF180018273A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 993921C01A5AAF180018273A /* CoreGraphics.framework */; };
+		993921C31A5AAF4B0018273A /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 993921C21A5AAF4B0018273A /* libiconv.dylib */; };
+		993922C11A5AC3810018273A /* line@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993922BF1A5AC3810018273A /* line@2x.png */; };
+		993922C21A5AC3810018273A /* pick_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 993922C01A5AC3810018273A /* pick_bg@2x.png */; };
+		993922C91A5AD3760018273A /* background-320-480.png in Resources */ = {isa = PBXBuildFile; fileRef = 993922C31A5AD3760018273A /* background-320-480.png */; };
+		993922CA1A5AD3760018273A /* background-640-960.png in Resources */ = {isa = PBXBuildFile; fileRef = 993922C41A5AD3760018273A /* background-640-960.png */; };
+		993922CB1A5AD3760018273A /* background-640-1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 993922C51A5AD3760018273A /* background-640-1136.png */; };
+		993922CC1A5AD3760018273A /* logo-320-480.png in Resources */ = {isa = PBXBuildFile; fileRef = 993922C61A5AD3760018273A /* logo-320-480.png */; };
+		993922CD1A5AD3760018273A /* logo-640-960.png in Resources */ = {isa = PBXBuildFile; fileRef = 993922C71A5AD3760018273A /* logo-640-960.png */; };
+		993BCFD01A5B96A700243526 /* returnpng.png in Resources */ = {isa = PBXBuildFile; fileRef = 993BCFCF1A5B96A700243526 /* returnpng.png */; };
+		996694D21A71F501008612CB /* detailview.m in Sources */ = {isa = PBXBuildFile; fileRef = 996694D11A71F501008612CB /* detailview.m */; };
+		996694D51A722ACE008612CB /* detailview1.m in Sources */ = {isa = PBXBuildFile; fileRef = 996694D41A722ACE008612CB /* detailview1.m */; };
+		9981663D1A603970003E70CE /* 80.png in Resources */ = {isa = PBXBuildFile; fileRef = 9981663A1A603970003E70CE /* 80.png */; };
+		9981663E1A603970003E70CE /* 87.png in Resources */ = {isa = PBXBuildFile; fileRef = 9981663B1A603970003E70CE /* 87.png */; };
+		998166471A60404F003E70CE /* title2.png in Resources */ = {isa = PBXBuildFile; fileRef = 998166461A60404F003E70CE /* title2.png */; };
+		998166491A604291003E70CE /* logo-640-1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 998166481A604291003E70CE /* logo-640-1136.png */; };
+		99818B0E1A67A70C00570C2F /* webview.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99818B0D1A67A70C00570C2F /* webview.xib */; };
+		99818B111A67AB7D00570C2F /* webview.m in Sources */ = {isa = PBXBuildFile; fileRef = 99818B101A67AB7D00570C2F /* webview.m */; };
+		99818B141A68917600570C2F /* about.m in Sources */ = {isa = PBXBuildFile; fileRef = 99818B131A68917600570C2F /* about.m */; };
+		99818B1A1A69085600570C2F /* main12.m in Sources */ = {isa = PBXBuildFile; fileRef = 99818B191A69085600570C2F /* main12.m */; };
+		998DF8F81A6F4E2000932A3A /* zsm_cell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 998DF8F71A6F4E2000932A3A /* zsm_cell2.xib */; };
+		999653831A5EAA11003A8B4D /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 999653821A5EAA11003A8B4D /* LoadingView.m */; };
+		999DEDCE1A5F7A9100D37C61 /* zsm_cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 999DEDCD1A5F7A9100D37C61 /* zsm_cell.xib */; };
+		999DEDD11A5F7AA900D37C61 /* zsm_cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 999DEDD01A5F7AA900D37C61 /* zsm_cell.m */; };
+		99B925021A6CE51900D4FDE5 /* query.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B925011A6CE51900D4FDE5 /* query.m */; };
+		99B925051A6CEEBC00D4FDE5 /* SheetUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 99B925041A6CEEBC00D4FDE5 /* SheetUI.m */; };
+		99BE6BCB1A603340001CB483 /* 1024-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 99BE6BCA1A603340001CB483 /* 1024-1.png */; };
+		99BE6BCD1A603484001CB483 /* backpng.png in Resources */ = {isa = PBXBuildFile; fileRef = 99BE6BCC1A603484001CB483 /* backpng.png */; };
+		99BE6BCF1A60351D001CB483 /* 180.png in Resources */ = {isa = PBXBuildFile; fileRef = 99BE6BCE1A60351D001CB483 /* 180.png */; };
+		99BE6BD11A6037A4001CB483 /* 120.png in Resources */ = {isa = PBXBuildFile; fileRef = 99BE6BD01A6037A4001CB483 /* 120.png */; };
+		99CE6C5D1A5BDC4F00DB135D /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 99CE6C5B1A5BDC4F00DB135D /* button.png */; };
+		99CE6C5E1A5BDC4F00DB135D /* button2.png in Resources */ = {isa = PBXBuildFile; fileRef = 99CE6C5C1A5BDC4F00DB135D /* button2.png */; };
+		99FEDF461A5B806500E74A50 /* main1_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FEDF3E1A5B806500E74A50 /* main1_1.png */; };
+		99FEDF471A5B806500E74A50 /* main1_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FEDF3F1A5B806500E74A50 /* main1_2.png */; };
+		99FEDF481A5B806500E74A50 /* main2_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FEDF401A5B806500E74A50 /* main2_1.png */; };
+		99FEDF491A5B806500E74A50 /* main2_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FEDF411A5B806500E74A50 /* main2_2.png */; };
+		99FEDF4A1A5B806500E74A50 /* main3_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FEDF421A5B806500E74A50 /* main3_1.png */; };
+		99FEDF4B1A5B806500E74A50 /* main3_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FEDF431A5B806500E74A50 /* main3_2.png */; };
+		99FEDF4C1A5B806500E74A50 /* main4_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FEDF441A5B806500E74A50 /* main4_1.png */; };
+		99FEDF4D1A5B806500E74A50 /* main4_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FEDF451A5B806500E74A50 /* main4_2.png */; };
+		99FEDF4F1A5B824800E74A50 /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 99FEDF4E1A5B824800E74A50 /* title.png */; };
+		99FEDF521A5B82B900E74A50 /* ScanViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FEDF511A5B82B900E74A50 /* ScanViewViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		992CB7CE1A5990E400779CFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 992CB7AC1A5990E400779CFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 992CB7B31A5990E400779CFD;
+			remoteInfo = VMTSAPP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B0978CD1CCB19D60089DF04 /* 兽药生产企业数据_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "兽药生产企业数据_2.png"; sourceTree = "<group>"; };
+		7B0978CE1CCB19D60089DF04 /* 兽药生产企业数据.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "兽药生产企业数据.png"; sourceTree = "<group>"; };
+		7B0978D11CCB1A5C0089DF04 /* 兽药产品批准文号数据_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "兽药产品批准文号数据_2.png"; sourceTree = "<group>"; };
+		7B0978D21CCB1A5C0089DF04 /* 兽药产品批准文号数据.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "兽药产品批准文号数据.png"; sourceTree = "<group>"; };
+		7B0978D51CCB1B2E0089DF04 /* 进口兽药注册数据_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "进口兽药注册数据_2.png"; sourceTree = "<group>"; };
+		7B0978D61CCB1B2E0089DF04 /* 进口兽药注册数据.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "进口兽药注册数据.png"; sourceTree = "<group>"; };
+		7B0978D91CCB1C7C0089DF04 /* 国产生物制品批签发数据_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "国产生物制品批签发数据_2.png"; sourceTree = "<group>"; };
+		7B0978DA1CCB1C7C0089DF04 /* 国产生物制品批签发数据.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "国产生物制品批签发数据.png"; sourceTree = "<group>"; };
+		7B0978DD1CCB1D730089DF04 /* 化药监督抽检结果数据_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "化药监督抽检结果数据_2.png"; sourceTree = "<group>"; };
+		7B0978DE1CCB1D730089DF04 /* 化药监督抽检结果数据.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "化药监督抽检结果数据.png"; sourceTree = "<group>"; };
+		7B0978E11CCB9D120089DF04 /* 国内兽药说明书数据_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "国内兽药说明书数据_2.png"; sourceTree = "<group>"; };
+		7B0978E21CCB9D120089DF04 /* 国内兽药说明书数据.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "国内兽药说明书数据.png"; sourceTree = "<group>"; };
+		7B0978E51CCB9EB20089DF04 /* 进口兽药说明书数据_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "进口兽药说明书数据_2.png"; sourceTree = "<group>"; };
+		7B0978E61CCB9EB20089DF04 /* 进口兽药说明书数据.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "进口兽药说明书数据.png"; sourceTree = "<group>"; };
+		7B0978E91CCBAA250089DF04 /* 进口生物制品签发数据_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "进口生物制品签发数据_2.png"; sourceTree = "<group>"; };
+		7B0978EA1CCBAA250089DF04 /* 进口生物制品签发数据.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "进口生物制品签发数据.png"; sourceTree = "<group>"; };
+		7B0978ED1CCBAAA00089DF04 /* 生药监督抽检结果数据_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "生药监督抽检结果数据_2.png"; sourceTree = "<group>"; };
+		7B0978EE1CCBAAA00089DF04 /* 生药监督抽检结果数据.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "生药监督抽检结果数据.png"; sourceTree = "<group>"; };
+		7B0978F21CCBCD5E0089DF04 /* ScanCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanCodeView.h; sourceTree = "<group>"; };
+		7B0978F31CCBCD5E0089DF04 /* ScanCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanCodeView.m; sourceTree = "<group>"; };
+		7B0978F41CCBCD5E0089DF04 /* scanCodeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = scanCodeView.xib; sourceTree = "<group>"; };
+		7B0978F71CCBCD6A0089DF04 /* scanline.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scanline.png; sourceTree = "<group>"; };
+		8504859C1A82578400BC5DCF /* LogoIAbout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoIAbout.png; sourceTree = "<group>"; };
+		9925A39A1A60611A00E308F4 /* Ico.png */ = {isa = PBXFileReference; explicitFileType = image.icns; path = Ico.png; sourceTree = "<group>"; };
+		9925A39C1A6061F800E308F4 /* 58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 58.png; sourceTree = "<group>"; };
+		9925A39E1A60652F00E308F4 /* Ico@2x.png */ = {isa = PBXFileReference; explicitFileType = image.icns; path = "Ico@2x.png"; sourceTree = "<group>"; };
+		9926AD6E1A5BFFF200267C19 /* Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		9926AD6F1A5BFFF200267C19 /* Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Common.m; sourceTree = "<group>"; };
+		992CB7B41A5990E400779CFD /* 国家兽药查询.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "国家兽药查询.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		992CB7B81A5990E400779CFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		992CB7B91A5990E400779CFD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		992CB7BB1A5990E400779CFD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		992CB7BC1A5990E400779CFD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		992CB7BE1A5990E400779CFD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		992CB7BF1A5990E400779CFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		992CB7C21A5990E400779CFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		992CB7C41A5990E400779CFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		992CB7CD1A5990E400779CFD /* VMTSAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VMTSAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		993921B41A5AAEDC0018273A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		993921B61A5AAEFB0018273A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		993921B71A5AAEFB0018273A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		993921BA1A5AAF010018273A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		993921BC1A5AAF090018273A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		993921BE1A5AAF120018273A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		993921C01A5AAF180018273A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		993921C21A5AAF4B0018273A /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		993922BF1A5AC3810018273A /* line@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "line@2x.png"; sourceTree = "<group>"; };
+		993922C01A5AC3810018273A /* pick_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pick_bg@2x.png"; sourceTree = "<group>"; };
+		993922C31A5AD3760018273A /* background-320-480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-320-480.png"; sourceTree = "<group>"; };
+		993922C41A5AD3760018273A /* background-640-960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-640-960.png"; sourceTree = "<group>"; };
+		993922C51A5AD3760018273A /* background-640-1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-640-1136.png"; sourceTree = "<group>"; };
+		993922C61A5AD3760018273A /* logo-320-480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-320-480.png"; sourceTree = "<group>"; };
+		993922C71A5AD3760018273A /* logo-640-960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-640-960.png"; sourceTree = "<group>"; };
+		993BCFCF1A5B96A700243526 /* returnpng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = returnpng.png; sourceTree = "<group>"; };
+		996694D01A71F501008612CB /* detailview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailview.h; sourceTree = "<group>"; };
+		996694D11A71F501008612CB /* detailview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailview.m; sourceTree = "<group>"; };
+		996694D31A722ACE008612CB /* detailview1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = detailview1.h; sourceTree = "<group>"; };
+		996694D41A722ACE008612CB /* detailview1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = detailview1.m; sourceTree = "<group>"; };
+		9981663A1A603970003E70CE /* 80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 80.png; sourceTree = "<group>"; };
+		9981663B1A603970003E70CE /* 87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 87.png; sourceTree = "<group>"; };
+		998166461A60404F003E70CE /* title2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title2.png; sourceTree = "<group>"; };
+		998166481A604291003E70CE /* logo-640-1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-640-1136.png"; sourceTree = "<group>"; };
+		99818B0D1A67A70C00570C2F /* webview.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = webview.xib; path = ../webview.xib; sourceTree = "<group>"; };
+		99818B0F1A67AB7D00570C2F /* webview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = webview.h; sourceTree = "<group>"; };
+		99818B101A67AB7D00570C2F /* webview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = webview.m; sourceTree = "<group>"; };
+		99818B121A68917600570C2F /* about.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = about.h; sourceTree = "<group>"; };
+		99818B131A68917600570C2F /* about.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = about.m; sourceTree = "<group>"; };
+		99818B181A69085600570C2F /* main12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main12.h; sourceTree = "<group>"; };
+		99818B191A69085600570C2F /* main12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main12.m; sourceTree = "<group>"; };
+		998DF8F71A6F4E2000932A3A /* zsm_cell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = zsm_cell2.xib; sourceTree = "<group>"; };
+		999653811A5EAA11003A8B4D /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoadingView.h; path = ../LoadingView.h; sourceTree = "<group>"; };
+		999653821A5EAA11003A8B4D /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoadingView.m; path = ../LoadingView.m; sourceTree = "<group>"; };
+		999DEDCD1A5F7A9100D37C61 /* zsm_cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = zsm_cell.xib; sourceTree = "<group>"; };
+		999DEDCF1A5F7AA900D37C61 /* zsm_cell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zsm_cell.h; sourceTree = "<group>"; };
+		999DEDD01A5F7AA900D37C61 /* zsm_cell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zsm_cell.m; sourceTree = "<group>"; };
+		99B925001A6CE51900D4FDE5 /* query.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = query.h; sourceTree = "<group>"; };
+		99B925011A6CE51900D4FDE5 /* query.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = query.m; sourceTree = "<group>"; };
+		99B925031A6CEEBC00D4FDE5 /* SheetUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SheetUI.h; sourceTree = "<group>"; };
+		99B925041A6CEEBC00D4FDE5 /* SheetUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SheetUI.m; sourceTree = "<group>"; };
+		99BE6BCA1A603340001CB483 /* 1024-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1024-1.png"; sourceTree = "<group>"; };
+		99BE6BCC1A603484001CB483 /* backpng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backpng.png; sourceTree = "<group>"; };
+		99BE6BCE1A60351D001CB483 /* 180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 180.png; sourceTree = "<group>"; };
+		99BE6BD01A6037A4001CB483 /* 120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 120.png; sourceTree = "<group>"; };
+		99CE6C5B1A5BDC4F00DB135D /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		99CE6C5C1A5BDC4F00DB135D /* button2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button2.png; sourceTree = "<group>"; };
+		99FEDF3E1A5B806500E74A50 /* main1_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main1_1.png; sourceTree = "<group>"; };
+		99FEDF3F1A5B806500E74A50 /* main1_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main1_2.png; sourceTree = "<group>"; };
+		99FEDF401A5B806500E74A50 /* main2_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main2_1.png; sourceTree = "<group>"; };
+		99FEDF411A5B806500E74A50 /* main2_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main2_2.png; sourceTree = "<group>"; };
+		99FEDF421A5B806500E74A50 /* main3_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main3_1.png; sourceTree = "<group>"; };
+		99FEDF431A5B806500E74A50 /* main3_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main3_2.png; sourceTree = "<group>"; };
+		99FEDF441A5B806500E74A50 /* main4_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main4_1.png; sourceTree = "<group>"; };
+		99FEDF451A5B806500E74A50 /* main4_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main4_2.png; sourceTree = "<group>"; };
+		99FEDF4E1A5B824800E74A50 /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		99FEDF501A5B82B900E74A50 /* ScanViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewViewController.h; sourceTree = "<group>"; };
+		99FEDF511A5B82B900E74A50 /* ScanViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		992CB7B11A5990E400779CFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				993921C31A5AAF4B0018273A /* libiconv.dylib in Frameworks */,
+				993921C11A5AAF180018273A /* CoreGraphics.framework in Frameworks */,
+				993921BF1A5AAF120018273A /* Foundation.framework in Frameworks */,
+				993921BD1A5AAF090018273A /* UIKit.framework in Frameworks */,
+				993921BB1A5AAF010018273A /* AVFoundation.framework in Frameworks */,
+				993921B81A5AAEFB0018273A /* CoreMedia.framework in Frameworks */,
+				993921B91A5AAEFB0018273A /* CoreVideo.framework in Frameworks */,
+				993921B51A5AAEDC0018273A /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992CB7CA1A5990E400779CFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8504859E1A8257F400BC5DCF /* menu12 */ = {
+			isa = PBXGroup;
+			children = (
+				7B0978ED1CCBAAA00089DF04 /* 生药监督抽检结果数据_2.png */,
+				7B0978EE1CCBAAA00089DF04 /* 生药监督抽检结果数据.png */,
+				7B0978E91CCBAA250089DF04 /* 进口生物制品签发数据_2.png */,
+				7B0978EA1CCBAA250089DF04 /* 进口生物制品签发数据.png */,
+				7B0978E51CCB9EB20089DF04 /* 进口兽药说明书数据_2.png */,
+				7B0978E61CCB9EB20089DF04 /* 进口兽药说明书数据.png */,
+				7B0978E11CCB9D120089DF04 /* 国内兽药说明书数据_2.png */,
+				7B0978E21CCB9D120089DF04 /* 国内兽药说明书数据.png */,
+				7B0978DD1CCB1D730089DF04 /* 化药监督抽检结果数据_2.png */,
+				7B0978DE1CCB1D730089DF04 /* 化药监督抽检结果数据.png */,
+				7B0978D91CCB1C7C0089DF04 /* 国产生物制品批签发数据_2.png */,
+				7B0978DA1CCB1C7C0089DF04 /* 国产生物制品批签发数据.png */,
+				7B0978D51CCB1B2E0089DF04 /* 进口兽药注册数据_2.png */,
+				7B0978D61CCB1B2E0089DF04 /* 进口兽药注册数据.png */,
+				7B0978D11CCB1A5C0089DF04 /* 兽药产品批准文号数据_2.png */,
+				7B0978D21CCB1A5C0089DF04 /* 兽药产品批准文号数据.png */,
+				7B0978CD1CCB19D60089DF04 /* 兽药生产企业数据_2.png */,
+				7B0978CE1CCB19D60089DF04 /* 兽药生产企业数据.png */,
+			);
+			path = menu12;
+			sourceTree = "<group>";
+		};
+		9926AD6D1A5BFFCD00267C19 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7B0978F71CCBCD6A0089DF04 /* scanline.png */,
+				7B0978F21CCBCD5E0089DF04 /* ScanCodeView.h */,
+				7B0978F31CCBCD5E0089DF04 /* ScanCodeView.m */,
+				7B0978F41CCBCD5E0089DF04 /* scanCodeView.xib */,
+				999653811A5EAA11003A8B4D /* LoadingView.h */,
+				999653821A5EAA11003A8B4D /* LoadingView.m */,
+				9926AD6E1A5BFFF200267C19 /* Common.h */,
+				9926AD6F1A5BFFF200267C19 /* Common.m */,
+				99B925031A6CEEBC00D4FDE5 /* SheetUI.h */,
+				99B925041A6CEEBC00D4FDE5 /* SheetUI.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		992CB7AB1A5990E400779CFD = {
+			isa = PBXGroup;
+			children = (
+				992CB7B61A5990E400779CFD /* VMTSAPP */,
+				992CB7B51A5990E400779CFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		992CB7B51A5990E400779CFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				992CB7B41A5990E400779CFD /* 国家兽药查询.app */,
+				992CB7CD1A5990E400779CFD /* VMTSAPPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		992CB7B61A5990E400779CFD /* VMTSAPP */ = {
+			isa = PBXGroup;
+			children = (
+				998DF8F71A6F4E2000932A3A /* zsm_cell2.xib */,
+				999DEDCD1A5F7A9100D37C61 /* zsm_cell.xib */,
+				99818B171A69082F00570C2F /* query12 */,
+				99818B0D1A67A70C00570C2F /* webview.xib */,
+				9926AD6D1A5BFFCD00267C19 /* Common */,
+				993921751A5AADA00018273A /* Frameworks */,
+				99A7E8CC1A5A3A2C00042572 /* buttonpng */,
+				9959855D1A5978EA0081F1BD /* png */,
+				992CB7BB1A5990E400779CFD /* AppDelegate.h */,
+				992CB7BC1A5990E400779CFD /* AppDelegate.m */,
+				992CB7BE1A5990E400779CFD /* ViewController.h */,
+				992CB7BF1A5990E400779CFD /* ViewController.m */,
+				992CB7C11A5990E400779CFD /* Main.storyboard */,
+				992CB7C41A5990E400779CFD /* Images.xcassets */,
+				992CB7B71A5990E400779CFD /* Supporting Files */,
+				99FEDF501A5B82B900E74A50 /* ScanViewViewController.h */,
+				99FEDF511A5B82B900E74A50 /* ScanViewViewController.m */,
+				999DEDCF1A5F7AA900D37C61 /* zsm_cell.h */,
+				999DEDD01A5F7AA900D37C61 /* zsm_cell.m */,
+				99818B0F1A67AB7D00570C2F /* webview.h */,
+				99818B101A67AB7D00570C2F /* webview.m */,
+				99818B121A68917600570C2F /* about.h */,
+				99818B131A68917600570C2F /* about.m */,
+			);
+			path = VMTSAPP;
+			sourceTree = "<group>";
+		};
+		992CB7B71A5990E400779CFD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				992CB7B81A5990E400779CFD /* Info.plist */,
+				992CB7B91A5990E400779CFD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		993921751A5AADA00018273A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				993921C21A5AAF4B0018273A /* libiconv.dylib */,
+				993921C01A5AAF180018273A /* CoreGraphics.framework */,
+				993921BE1A5AAF120018273A /* Foundation.framework */,
+				993921BC1A5AAF090018273A /* UIKit.framework */,
+				993921BA1A5AAF010018273A /* AVFoundation.framework */,
+				993921B61A5AAEFB0018273A /* CoreMedia.framework */,
+				993921B71A5AAEFB0018273A /* CoreVideo.framework */,
+				993921B41A5AAEDC0018273A /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9959855D1A5978EA0081F1BD /* png */ = {
+			isa = PBXGroup;
+			children = (
+				8504859E1A8257F400BC5DCF /* menu12 */,
+				8504859C1A82578400BC5DCF /* LogoIAbout.png */,
+				9925A39E1A60652F00E308F4 /* Ico@2x.png */,
+				9925A39C1A6061F800E308F4 /* 58.png */,
+				9925A39A1A60611A00E308F4 /* Ico.png */,
+				998166481A604291003E70CE /* logo-640-1136.png */,
+				998166461A60404F003E70CE /* title2.png */,
+				9981663A1A603970003E70CE /* 80.png */,
+				9981663B1A603970003E70CE /* 87.png */,
+				99BE6BD01A6037A4001CB483 /* 120.png */,
+				99BE6BCE1A60351D001CB483 /* 180.png */,
+				99BE6BCC1A603484001CB483 /* backpng.png */,
+				99BE6BCA1A603340001CB483 /* 1024-1.png */,
+				99CE6C5B1A5BDC4F00DB135D /* button.png */,
+				99CE6C5C1A5BDC4F00DB135D /* button2.png */,
+				993BCFCF1A5B96A700243526 /* returnpng.png */,
+				99FEDF4E1A5B824800E74A50 /* title.png */,
+				993922C31A5AD3760018273A /* background-320-480.png */,
+				993922C41A5AD3760018273A /* background-640-960.png */,
+				993922C51A5AD3760018273A /* background-640-1136.png */,
+				993922C61A5AD3760018273A /* logo-320-480.png */,
+				993922C71A5AD3760018273A /* logo-640-960.png */,
+				993922BF1A5AC3810018273A /* line@2x.png */,
+				993922C01A5AC3810018273A /* pick_bg@2x.png */,
+			);
+			name = png;
+			sourceTree = "<group>";
+		};
+		99818B171A69082F00570C2F /* query12 */ = {
+			isa = PBXGroup;
+			children = (
+				99818B181A69085600570C2F /* main12.h */,
+				99818B191A69085600570C2F /* main12.m */,
+				99B925001A6CE51900D4FDE5 /* query.h */,
+				99B925011A6CE51900D4FDE5 /* query.m */,
+				996694D01A71F501008612CB /* detailview.h */,
+				996694D11A71F501008612CB /* detailview.m */,
+				996694D31A722ACE008612CB /* detailview1.h */,
+				996694D41A722ACE008612CB /* detailview1.m */,
+			);
+			name = query12;
+			sourceTree = "<group>";
+		};
+		99A7E8CC1A5A3A2C00042572 /* buttonpng */ = {
+			isa = PBXGroup;
+			children = (
+				99FEDF3E1A5B806500E74A50 /* main1_1.png */,
+				99FEDF3F1A5B806500E74A50 /* main1_2.png */,
+				99FEDF401A5B806500E74A50 /* main2_1.png */,
+				99FEDF411A5B806500E74A50 /* main2_2.png */,
+				99FEDF421A5B806500E74A50 /* main3_1.png */,
+				99FEDF431A5B806500E74A50 /* main3_2.png */,
+				99FEDF441A5B806500E74A50 /* main4_1.png */,
+				99FEDF451A5B806500E74A50 /* main4_2.png */,
+			);
+			name = buttonpng;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		992CB7B31A5990E400779CFD /* VMTSAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 992CB7D71A5990E400779CFD /* Build configuration list for PBXNativeTarget "VMTSAPP" */;
+			buildPhases = (
+				992CB7B01A5990E400779CFD /* Sources */,
+				992CB7B11A5990E400779CFD /* Frameworks */,
+				992CB7B21A5990E400779CFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VMTSAPP;
+			productName = VMTSAPP;
+			productReference = 992CB7B41A5990E400779CFD /* 国家兽药查询.app */;
+			productType = "com.apple.product-type.application";
+		};
+		992CB7CC1A5990E400779CFD /* VMTSAPPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 992CB7DA1A5990E400779CFD /* Build configuration list for PBXNativeTarget "VMTSAPPTests" */;
+			buildPhases = (
+				992CB7C91A5990E400779CFD /* Sources */,
+				992CB7CA1A5990E400779CFD /* Frameworks */,
+				992CB7CB1A5990E400779CFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				992CB7CF1A5990E400779CFD /* PBXTargetDependency */,
+			);
+			name = VMTSAPPTests;
+			productName = VMTSAPPTests;
+			productReference = 992CB7CD1A5990E400779CFD /* VMTSAPPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		992CB7AC1A5990E400779CFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Seuic;
+				TargetAttributes = {
+					992CB7B31A5990E400779CFD = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = KZYT8HV3VY;
+					};
+					992CB7CC1A5990E400779CFD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 992CB7B31A5990E400779CFD;
+					};
+				};
+			};
+			buildConfigurationList = 992CB7AF1A5990E400779CFD /* Build configuration list for PBXProject "VMTSAPP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 992CB7AB1A5990E400779CFD;
+			productRefGroup = 992CB7B51A5990E400779CFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				992CB7B31A5990E400779CFD /* VMTSAPP */,
+				992CB7CC1A5990E400779CFD /* VMTSAPPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		992CB7B21A5990E400779CFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99BE6BCD1A603484001CB483 /* backpng.png in Resources */,
+				993922CB1A5AD3760018273A /* background-640-1136.png in Resources */,
+				9925A39D1A6061F800E308F4 /* 58.png in Resources */,
+				7B0978F61CCBCD5E0089DF04 /* scanCodeView.xib in Resources */,
+				99BE6BCF1A60351D001CB483 /* 180.png in Resources */,
+				7B0978E81CCB9EB20089DF04 /* 进口兽药说明书数据.png in Resources */,
+				993BCFD01A5B96A700243526 /* returnpng.png in Resources */,
+				9925A39B1A60611A00E308F4 /* Ico.png in Resources */,
+				7B0978EF1CCBAAA00089DF04 /* 生药监督抽检结果数据_2.png in Resources */,
+				7B0978CF1CCB19D60089DF04 /* 兽药生产企业数据_2.png in Resources */,
+				99FEDF461A5B806500E74A50 /* main1_1.png in Resources */,
+				7B0978D31CCB1A5C0089DF04 /* 兽药产品批准文号数据_2.png in Resources */,
+				7B0978EB1CCBAA250089DF04 /* 进口生物制品签发数据_2.png in Resources */,
+				993922C21A5AC3810018273A /* pick_bg@2x.png in Resources */,
+				998166491A604291003E70CE /* logo-640-1136.png in Resources */,
+				998166471A60404F003E70CE /* title2.png in Resources */,
+				7B0978E01CCB1D730089DF04 /* 化药监督抽检结果数据.png in Resources */,
+				99FEDF4A1A5B806500E74A50 /* main3_1.png in Resources */,
+				993922C11A5AC3810018273A /* line@2x.png in Resources */,
+				993922CD1A5AD3760018273A /* logo-640-960.png in Resources */,
+				99FEDF4B1A5B806500E74A50 /* main3_2.png in Resources */,
+				99BE6BD11A6037A4001CB483 /* 120.png in Resources */,
+				99CE6C5D1A5BDC4F00DB135D /* button.png in Resources */,
+				7B0978EC1CCBAA250089DF04 /* 进口生物制品签发数据.png in Resources */,
+				8504859D1A82578400BC5DCF /* LogoIAbout.png in Resources */,
+				99FEDF471A5B806500E74A50 /* main1_2.png in Resources */,
+				9981663E1A603970003E70CE /* 87.png in Resources */,
+				7B0978D01CCB19D60089DF04 /* 兽药生产企业数据.png in Resources */,
+				99FEDF4C1A5B806500E74A50 /* main4_1.png in Resources */,
+				999DEDCE1A5F7A9100D37C61 /* zsm_cell.xib in Resources */,
+				7B0978D81CCB1B2E0089DF04 /* 进口兽药注册数据.png in Resources */,
+				7B0978DC1CCB1C7C0089DF04 /* 国产生物制品批签发数据.png in Resources */,
+				7B0978D71CCB1B2E0089DF04 /* 进口兽药注册数据_2.png in Resources */,
+				9981663D1A603970003E70CE /* 80.png in Resources */,
+				7B0978E31CCB9D120089DF04 /* 国内兽药说明书数据_2.png in Resources */,
+				99FEDF4D1A5B806500E74A50 /* main4_2.png in Resources */,
+				7B0978D41CCB1A5C0089DF04 /* 兽药产品批准文号数据.png in Resources */,
+				998DF8F81A6F4E2000932A3A /* zsm_cell2.xib in Resources */,
+				7B0978F81CCBCD6A0089DF04 /* scanline.png in Resources */,
+				99FEDF4F1A5B824800E74A50 /* title.png in Resources */,
+				99BE6BCB1A603340001CB483 /* 1024-1.png in Resources */,
+				7B0978DF1CCB1D730089DF04 /* 化药监督抽检结果数据_2.png in Resources */,
+				99FEDF491A5B806500E74A50 /* main2_2.png in Resources */,
+				99CE6C5E1A5BDC4F00DB135D /* button2.png in Resources */,
+				9925A39F1A60652F00E308F4 /* Ico@2x.png in Resources */,
+				7B0978E41CCB9D120089DF04 /* 国内兽药说明书数据.png in Resources */,
+				993922CA1A5AD3760018273A /* background-640-960.png in Resources */,
+				7B0978E71CCB9EB20089DF04 /* 进口兽药说明书数据_2.png in Resources */,
+				993922CC1A5AD3760018273A /* logo-320-480.png in Resources */,
+				7B0978DB1CCB1C7C0089DF04 /* 国产生物制品批签发数据_2.png in Resources */,
+				993922C91A5AD3760018273A /* background-320-480.png in Resources */,
+				99FEDF481A5B806500E74A50 /* main2_1.png in Resources */,
+				992CB7C31A5990E400779CFD /* Main.storyboard in Resources */,
+				99818B0E1A67A70C00570C2F /* webview.xib in Resources */,
+				992CB7C51A5990E400779CFD /* Images.xcassets in Resources */,
+				7B0978F01CCBAAA00089DF04 /* 生药监督抽检结果数据.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992CB7CB1A5990E400779CFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		992CB7B01A5990E400779CFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99B925021A6CE51900D4FDE5 /* query.m in Sources */,
+				99818B1A1A69085600570C2F /* main12.m in Sources */,
+				9926AD701A5BFFF200267C19 /* Common.m in Sources */,
+				996694D21A71F501008612CB /* detailview.m in Sources */,
+				7B0978F51CCBCD5E0089DF04 /* ScanCodeView.m in Sources */,
+				992CB7C01A5990E400779CFD /* ViewController.m in Sources */,
+				99818B111A67AB7D00570C2F /* webview.m in Sources */,
+				999653831A5EAA11003A8B4D /* LoadingView.m in Sources */,
+				996694D51A722ACE008612CB /* detailview1.m in Sources */,
+				992CB7BD1A5990E400779CFD /* AppDelegate.m in Sources */,
+				99FEDF521A5B82B900E74A50 /* ScanViewViewController.m in Sources */,
+				992CB7BA1A5990E400779CFD /* main.m in Sources */,
+				99B925051A6CEEBC00D4FDE5 /* SheetUI.m in Sources */,
+				999DEDD11A5F7AA900D37C61 /* zsm_cell.m in Sources */,
+				99818B141A68917600570C2F /* about.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992CB7C91A5990E400779CFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		992CB7CF1A5990E400779CFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 992CB7B31A5990E400779CFD /* VMTSAPP */;
+			targetProxy = 992CB7CE1A5990E400779CFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		992CB7C11A5990E400779CFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				992CB7C21A5990E400779CFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		992CB7D51A5990E400779CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		992CB7D61A5990E400779CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		992CB7D81A5990E400779CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = VMTSAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Volumes/1/QR,
+					code/QR,
+					code/ZBarSDK,
+					"$(PROJECT_DIR)/VMTSAPP/ZBarSDK",
+					"$(PROJECT_DIR)/ZBarSDK",
+					"$(PROJECT_DIR)",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "国家兽药查询";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Debug;
+		};
+		992CB7D91A5990E400779CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = VMTSAPP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Volumes/1/QR,
+					code/QR,
+					code/ZBarSDK,
+					"$(PROJECT_DIR)/VMTSAPP/ZBarSDK",
+					"$(PROJECT_DIR)/ZBarSDK",
+					"$(PROJECT_DIR)",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "国家兽药查询";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 armv7s arm64";
+			};
+			name = Release;
+		};
+		992CB7DB1A5990E400779CFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VMTSAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VMTSAPP.app/VMTSAPP";
+			};
+			name = Debug;
+		};
+		992CB7DC1A5990E400779CFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VMTSAPPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VMTSAPP.app/VMTSAPP";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		992CB7AF1A5990E400779CFD /* Build configuration list for PBXProject "VMTSAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992CB7D51A5990E400779CFD /* Debug */,
+				992CB7D61A5990E400779CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		992CB7D71A5990E400779CFD /* Build configuration list for PBXNativeTarget "VMTSAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992CB7D81A5990E400779CFD /* Debug */,
+				992CB7D91A5990E400779CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		992CB7DA1A5990E400779CFD /* Build configuration list for PBXNativeTarget "VMTSAPPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				992CB7DB1A5990E400779CFD /* Debug */,
+				992CB7DC1A5990E400779CFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 992CB7AC1A5990E400779CFD /* Project object */;
+}
