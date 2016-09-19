@@ -82,6 +82,15 @@
                 
                 NSString *result=metadataObj.stringValue;//返回的扫描结果
                 const NSStringEncoding *encoding = [NSString availableStringEncodings];
+    
+                if (metadataObj.stringValue ==nil )
+                {
+                    dispatch_async(dispatch_get_main_queue(), ^{
+                        [delegate ScanCode:result CodeType:codetype];
+                        [self dismissViewControllerAnimated:YES completion:nil];
+                    });
+                    return;
+                }
                 NSData *data=[metadataObj.stringValue dataUsingEncoding:NSUTF8StringEncoding];
                 NSStringEncoding enc = CFStringConvertEncodingToNSStringEncoding(kCFStringEncodingGB_18030_2000);
                 NSString *retStr = [[NSString alloc] initWithData:data encoding:enc];//如果中文是utf-8编码转gbk结果为空(还没搞明白)
@@ -101,16 +110,20 @@
                 NSLog(@"处理2 编码 %@",result);
                 if (!result)
                     result =metadataObj.stringValue;
-                [delegate ScanCode:result CodeType:codetype];
+                
+                dispatch_async(dispatch_get_main_queue(), ^{
+                    [delegate ScanCode:result CodeType:codetype];
+                });
+          
             }
-            
+            NSLog(@"条码 %@",metadataObj.stringValue);
             
             dispatch_async(dispatch_get_main_queue(), ^{
                 [self dismissViewControllerAnimated:YES completion:nil];
             });
     
             
-            NSLog(@"条码 %@",metadataObj.stringValue);
+         
         }
     }
 }
