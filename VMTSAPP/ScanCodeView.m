@@ -81,14 +81,11 @@
             if (delegate != nil){
                 
                 NSString *result=metadataObj.stringValue;//返回的扫描结果
-                const NSStringEncoding *encoding = [NSString availableStringEncodings];
-    
+              
                 if (metadataObj.stringValue ==nil )
                 {
-                    dispatch_async(dispatch_get_main_queue(), ^{
-                        [delegate ScanCode:result CodeType:codetype];
-                        [self dismissViewControllerAnimated:YES completion:nil];
-                    });
+                    [delegate ScanCode:result CodeType:codetype];
+                    [self dismissViewControllerAnimated:YES completion:nil];
                     return;
                 }
                 NSData *data=[metadataObj.stringValue dataUsingEncoding:NSUTF8StringEncoding];
@@ -111,16 +108,12 @@
                 if (!result)
                     result =metadataObj.stringValue;
                 
-                dispatch_async(dispatch_get_main_queue(), ^{
-                    [delegate ScanCode:result CodeType:codetype];
-                });
-          
+                
+                [delegate ScanCode:result CodeType:codetype];
             }
             NSLog(@"条码 %@",metadataObj.stringValue);
-            
-            dispatch_async(dispatch_get_main_queue(), ^{
-                [self dismissViewControllerAnimated:YES completion:nil];
-            });
+             [self dismissViewControllerAnimated:YES completion:nil];
+          
     
             
          

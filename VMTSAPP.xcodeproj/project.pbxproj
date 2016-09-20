@@ -88,16 +88,6 @@
 		99FEDF521A5B82B900E74A50 /* ScanViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FEDF511A5B82B900E74A50 /* ScanViewViewController.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		992CB7CE1A5990E400779CFD /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 992CB7AC1A5990E400779CFD /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 992CB7B31A5990E400779CFD;
-			remoteInfo = VMTSAPP;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		7B0978CD1CCB19D60089DF04 /* 兽药生产企业数据_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "兽药生产企业数据_2.png"; sourceTree = "<group>"; };
 		7B0978CE1CCB19D60089DF04 /* 兽药生产企业数据.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "兽药生产企业数据.png"; sourceTree = "<group>"; };
@@ -136,7 +126,6 @@
 		992CB7BF1A5990E400779CFD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		992CB7C21A5990E400779CFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		992CB7C41A5990E400779CFD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		992CB7CD1A5990E400779CFD /* VMTSAPPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VMTSAPPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		993921B41A5AAEDC0018273A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		993921B61A5AAEFB0018273A /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		993921B71A5AAEFB0018273A /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
@@ -213,13 +202,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		992CB7CA1A5990E400779CFD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -277,7 +259,6 @@
 			isa = PBXGroup;
 			children = (
 				992CB7B41A5990E400779CFD /* 国家兽药查询.app */,
-				992CB7CD1A5990E400779CFD /* VMTSAPPTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -417,24 +398,6 @@
 			productReference = 992CB7B41A5990E400779CFD /* 国家兽药查询.app */;
 			productType = "com.apple.product-type.application";
 		};
-		992CB7CC1A5990E400779CFD /* VMTSAPPTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 992CB7DA1A5990E400779CFD /* Build configuration list for PBXNativeTarget "VMTSAPPTests" */;
-			buildPhases = (
-				992CB7C91A5990E400779CFD /* Sources */,
-				992CB7CA1A5990E400779CFD /* Frameworks */,
-				992CB7CB1A5990E400779CFD /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				992CB7CF1A5990E400779CFD /* PBXTargetDependency */,
-			);
-			name = VMTSAPPTests;
-			productName = VMTSAPPTests;
-			productReference = 992CB7CD1A5990E400779CFD /* VMTSAPPTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -447,10 +410,6 @@
 					992CB7B31A5990E400779CFD = {
 						CreatedOnToolsVersion = 6.1.1;
 						DevelopmentTeam = KZYT8HV3VY;
-					};
-					992CB7CC1A5990E400779CFD = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 992CB7B31A5990E400779CFD;
 					};
 				};
 			};
@@ -468,7 +427,6 @@
 			projectRoot = "";
 			targets = (
 				992CB7B31A5990E400779CFD /* VMTSAPP */,
-				992CB7CC1A5990E400779CFD /* VMTSAPPTests */,
 			);
 		};
 /* End PBXProject section */
@@ -537,13 +495,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		992CB7CB1A5990E400779CFD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -569,22 +520,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		992CB7C91A5990E400779CFD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		992CB7CF1A5990E400779CFD /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 992CB7B31A5990E400779CFD /* VMTSAPP */;
-			targetProxy = 992CB7CE1A5990E400779CFD /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		992CB7C11A5990E400779CFD /* Main.storyboard */ = {
@@ -733,40 +669,6 @@
 			};
 			name = Release;
 		};
-		992CB7DB1A5990E400779CFD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = VMTSAPPTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VMTSAPP.app/VMTSAPP";
-			};
-			name = Debug;
-		};
-		992CB7DC1A5990E400779CFD /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = VMTSAPPTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VMTSAPP.app/VMTSAPP";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -784,15 +686,6 @@
 			buildConfigurations = (
 				992CB7D81A5990E400779CFD /* Debug */,
 				992CB7D91A5990E400779CFD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		992CB7DA1A5990E400779CFD /* Build configuration list for PBXNativeTarget "VMTSAPPTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				992CB7DB1A5990E400779CFD /* Debug */,
-				992CB7DC1A5990E400779CFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
